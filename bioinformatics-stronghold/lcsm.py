@@ -10,6 +10,7 @@ from Bio import SeqIO
 
 # TODO improvements:
 # - Given a found match of len Y, only check for match > Y going forward
+# - Also probably smarter to find longest length first and count backwards
 
 
 def find_matches(a, b, minlength=2):
